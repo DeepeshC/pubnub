@@ -1,0 +1,124 @@
+body {
+  font-family: Monospace;
+  background-color: #f0f0f0;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+#banner {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width:  30%;
+  text-align: left;
+}
+
+#banner h1 {
+  margin: 0px;
+}
+#banner p {
+  margin: 0px;
+}
+
+#info {
+  position: absolute;
+  top: 10px;
+  left:  40%;
+  text-align: center;
+  font-size: 20px;
+}
+
+#wipe,
+#wipe_unknown,
+#online { 
+  margin: 3px;  
+  padding: 3px;  
+}
+
+#wipe_m,
+#wipe_s,
+#wipe_c,
+#wipe_u {
+  padding: 3px;
+}
+
+#server_off {
+  display: none;
+}
+
+#server_alert {
+  display: none;
+}
+
+
+#color_box {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 150px;;
+}
+
+#color_box p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 35px;
+
+}
+
+#color_display {
+  position: relative;
+  left: 35px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  border: 2px solid #000;
+}
+
+#color_picker {
+  display: none;
+}
+
+table {
+  margin: 3px;
+  padding: 3px;
+  border: 1px solid;
+}
+
+td {
+  border: 1px solid;
+  margin: 3px;
+  padding: 3px;
+}
+
+
+#non_webgl_container {
+  margin: 5px;    
+  margin-top: 150px;    
+}
+
+#subscribe,
+#publish {
+  font-size: 42px;
+  color: rgb(211,0,31);
+  color: #fff;
+  font-family: sans-serif; 
+  position: fixed;  
+  z-index: 10;
+  border-radius: 8px;
+  display: none;
+  background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 0%, rgb(70,64,66) 33%);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#publish {
+  left: 18%;
+  top: 93%;  
+}
+
+#subscribe {
+  right: 18%;
+  top: 92.5%;  
+}
